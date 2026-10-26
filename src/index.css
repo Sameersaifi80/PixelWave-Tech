@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+:root {
+    font-family: Inter, system-ui, sans-serif;
+    color: #e8eef7;
+    background: #050914;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility
+}
+
+* {
+    box-sizing: border-box
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    background: #050914
+}
+
+a {
+    text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit
+}
+
+.display {
+    font-family: 'Space Grotesk', sans-serif
+}
+
+.grid-bg {
+    background-image: linear-gradient(rgba(148, 163, 184, .07) 1px, transparent 1px), linear-gradient(90deg, rgba(148, 163, 184, .07) 1px, transparent 1px);
+    background-size: 42px 42px
+}
+
+.glow {
+    box-shadow: 0 0 90px rgba(37, 99, 235, .17)
+}
+
+.glass {
+    background: rgba(10, 18, 32, .72);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(148, 163, 184, .12)
+}
